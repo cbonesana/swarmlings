@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# echo $(date +"%F %T")
+
+
+HOURS=24
+
+CYCLES=5
+TIMES=1
+FILES=('fl1577' 'pcb442' 'rat783' 'u1060')
+BESTS=(999999 999999 999999 999999 999999 )
+CITIES=(907 99 273 940)
+SEEDS=(0 0 0 0)
+ALGOS=('' '' '' '' '' '' '' '' '' '')
+ALGORITHMS=(0 0 0 0)
+
+for  (( H=1; H<=${HOURS}; H++ ))
+do
+
+  # lancio degli algoritmi
+  for  (( VAR=1; VAR<=${CYCLES}; VAR++ ))
+  do
+    # echo "Ciclo numero ${VAR}"
+
+    # per ognuno dei 10 file...
+    #for F in ${FILES[@]}
+    for(( i=0; i<4; i++ ))
+    do
+
+      # ...lancia n algoritmi differenti
+      #for A in ${ALGORITHMS[@]}
+      #do
+        # echo "A ${A} ${FILES[i]}.tsp "
+        ./TSP -d data/${FILES[i]}.tsp -o output/tour/ -s $(date +"%N") -c ${CITIES[i]} -F 2 > ./output/text/SA_$(date +"%F_%T")_${VAR}_${NUM}_${F}.txt &
+        sleep 2
+      #done
+      
+      #sleep 190
+    done
+    sleep 190
+
+  done
+
+  # echo 'comprimi'
+#  tar -czf /usr/users/cbonesan/output/`hostname`_${H}.tar.gz ./output/text
+#  rm ./output/text/*
+
+done
+
+# python ./launchme.py

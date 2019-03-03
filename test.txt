@@ -1,0 +1,90 @@
+Computazione in corso... Done!
+
+Tour:                    ch130
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          43
+Distanza minima trovata: 6110
+SEED utilizzato:         42
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    d198
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          47
+Distanza minima trovata: 15780
+SEED utilizzato:         136598329
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    eil76
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          41
+Distanza minima trovata: 538
+SEED utilizzato:         893451273
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    fl1577
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          907
+Distanza minima trovata: 22391
+SEED utilizzato:         258376960
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    kroA100
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          38
+Distanza minima trovata: 21282
+SEED utilizzato:         983231872
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    lin318
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          86
+Distanza minima trovata: 42029
+SEED utilizzato:         322745052
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    pcb442
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          99
+Distanza minima trovata: 50791
+SEED utilizzato:         209239427
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    pr439
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          22
+Distanza minima trovata: 107217
+SEED utilizzato:         311124730
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    rat783
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          273
+Distanza minima trovata: 8844
+SEED utilizzato:         10351898
+Tempo trascorso:         180 secondi
+Soluzione valida
+Computazione in corso... Done!
+
+Tour:                    u1060
+Algoritmo utilizzato:    Ant Colony System
+Città iniziale:          940
+Distanza minima trovata: 225547
+SEED utilizzato:         221818014
+Tempo trascorso:         180 secondi
+Soluzione valida

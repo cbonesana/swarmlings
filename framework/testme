@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+./TSP -d data/ch130.tsp -c 43 -s 42
+./TSP -d data/d198.tsp -c 47 -s 136598329
+./TSP -d data/eil76.tsp -c 41 -s 893451273
+./TSP -d data/fl1577.tsp -c 907 -s 258376960
+./TSP -d data/kroA100.tsp -c 38 -s 983231872
+./TSP -d data/lin318.tsp -c 86 -s 322745052
+./TSP -d data/pcb442.tsp -c 99 -s 209239427
+./TSP -d data/pr439.tsp -c 22 -s 311124730
+./TSP -d data/rat783.tsp -c 273 -s 10351898
+./TSP -d data/u1060.tsp -c 940 -s 221818014
+
